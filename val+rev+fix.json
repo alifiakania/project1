@@ -1,0 +1,1728 @@
+[
+  {
+    "id": "auto_1",
+    "question": "Gus makan 2 telur-omelet untuk sarapan. Dia memiliki sandwich salad telur yang terbuat dari 3 telur untuk makan siang. Dia kemudian memiliki sup telur drop yang terbuat dari 1 telur untuk makan malam. Berapa banyak telur yang dimakan Gus secara keseluruhan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Gus makan 2 + 3 = 5 telur untuk sarapan dan makan siang."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, termasuk makan malam, dia makan total 5 + 1 = 6 telur."
+      }
+    ],
+    "final_answer": {
+      "text": "6 telur."
+    }
+  },
+  {
+    "id": "auto_2",
+    "question": "Jim membeli paket 20 pencucian mobil. Karena dia membeli paket, dia hanya perlu membayar 60%. Satu pencucian mobil biasanya biaya 15 dolar. Berapa banyak yang dia bayar untuk paket tersebut?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia harus membayar untuk 20 * 0.6 = 12 pencucian mobil"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, itu berarti dia harus membayar 12 * 15 = 180"
+      }
+    ],
+    "final_answer": {
+      "text": "180"
+    }
+  },
+  {
+    "id": "auto_3",
+    "question": "Sebuah mangkuk buah berisi 18 buah persik. Empat dari persik tersebut sudah matang dan dua lagi matang setiap hari, tetapi pada hari ketiga tiga buah dimakan. Berapa banyak persik matang yang lebih banyak daripada persik yang belum matang di dalam mangkuk setelah lima hari?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dalam 5 hari, 2 * 5 = 10 persik akan matang."
+      },
+      {
+        "id": "2",
+        "role": "inference",
+        "statement": "Dengan 4 yang sudah matang, akan ada 14 persik yang telah matang."
+      },
+      {
+        "id": "3",
+        "role": "inference",
+        "statement": "Tiga buah dimakan, jadi akan ada 14 - 3 = 11 persik matang yang tersisa."
+      },
+      {
+        "id": "4",
+        "role": "inference",
+        "statement": "Tersisa 18 - 14 = 4 persik yang belum matang."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, akan ada 11 - 4 = 7 persik matang lebih banyak daripada persik yang belum matang di dalam mangkuk setelah lima hari."
+      }
+    ],
+    "final_answer": {
+      "text": "7 persik matang lebih banyak daripada persik yang belum matang di dalam mangkuk setelah lima hari."
+    }
+  },
+  {
+    "id": "auto_4",
+    "question": "Village Foods menjual makanan yang baik dengan harga yang wajar. Spesialisasi mereka adalah sayuran segar. Jika mereka mendapatkan 500 pelanggan per bulan, dan setiap pelanggan membeli 2 kepala selada seharga $1 masing-masing dan 4 tomat seharga $0,5 masing-masing, maka berapa banyak uang, dalam dolar, yang akan diterima toko dari penjualan selada dan tomat per bulan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "2 kepala selada seharga 1 masing-masing adalah 2 * 1=2."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "4 tomat seharga 0.50 masing-masing adalah 4 * 0.5=2."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Jadi, setiap pelanggan membeli 2 + 2=4 dalam selada dan tomat per bulan."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, jika 500 pelanggan per bulan menghabiskan 4 untuk selada dan tomat, maka toko akan menerima 4 * 500=2000 per bulan dari penjualan selada dan tomat."
+      }
+    ],
+    "final_answer": {
+      "text": "2000 per bulan dari penjualan selada dan tomat."
+    }
+  },
+  {
+    "id": "auto_5",
+    "question": "Rumah Raine hanya berjarak berjalan kaki dari sekolahnya. Dia membutuhkan 150 langkah untuk berjalan ke sekolah. Berapa banyak langkah yang dia ambil untuk pergi dan pulang dari sekolah dalam lima hari?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Raine mengambil 150 * 2 = 300 langkah untuk pergi dan pulang dari sekolah setiap hari."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, dia membutuhkan 300 * 5 = 1500 langkah dalam lima hari."
+      }
+    ],
+    "final_answer": {
+      "text": "1500 langkah dalam lima hari."
+    }
+  },
+  {
+    "id": "auto_6",
+    "question": "Di museum, Bethany melihat 4 kali lebih banyak lukisan still life daripada potret. Jika dia melihat total 80 lukisan, berapa banyak potret yang dia lihat?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Biarkan s menjadi jumlah lukisan still life yang dilihat Bethany dan p menjadi jumlah potret. Kita tahu bahwa s + p = 80 dan s = 4p."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Mengganti persamaan kedua ke dalam persamaan pertama, kita mendapatkan 4p + p = 80."
+      },
+      {
+        "id": "3",
+        "role": "inference",
+        "statement": "Menggabungkan suku yang serupa, kita mendapatkan 5p = 80."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Jadi, membagi kedua sisi dengan 5, kita mendapatkan p = 16."
+      }
+    ],
+    "final_answer": {
+      "text": "16."
+    }
+  },
+  {
+    "id": "auto_7",
+    "question": "Nina suka memelihara serangga sebagai hewan peliharaan. Dia memiliki 3 laba-laba dan 50 semut. Setiap laba-laba memiliki 8 mata. Setiap semut memiliki 2 mata. Berapa banyak mata yang ada di total di antara serangga peliharaan Nina?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Jumlah mata dari laba-laba adalah 3 * 8 = 24 mata"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Jumlah mata dari semut adalah 50 * 2 = 100 mata"
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Maka, jumlah total mata di antara serangga Nina adalah 24 + 100 = 124 mata"
+      }
+    ],
+    "final_answer": {
+      "text": "124 mata"
+    }
+  },
+  {
+    "id": "auto_8",
+    "question": "Ada 18 perangko di album Parker. Jika Addie memasukkan seperempat dari 72 perangkonya ke dalam album Parker, berapa banyak perangko yang dia miliki sekarang?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Addie memasukkan 72 / 4=18 perangko ke dalam album."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, parker sekarang memiliki 18 + 18=36 perangko di albumnya."
+      }
+    ],
+    "final_answer": {
+      "text": "36 perangko di albumnya."
+    }
+  },
+  {
+    "id": "auto_9",
+    "question": "Sebuah toko hewan peliharaan memiliki enam anjing untuk dijual. Mereka memiliki setengah dari jumlah kucing, dua kali lipat dari jumlah burung, dan tiga kali lipat dari jumlah ikan untuk dijual. Berapa banyak hewan yang dijual di toko hewan peliharaan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Toko hewan peliharaan memiliki 6 / 2 = 3 kucing untuk dijual."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Mereka memiliki 6 * 2 = 12 burung untuk dijual."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Mereka memiliki 6 * 3 = 18 ikan untuk dijual."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, total ada 6 + 3 + 12 + 18 = 39 hewan peliharaan untuk dijual."
+      }
+    ],
+    "final_answer": {
+      "text": "39 hewan peliharaan untuk dijual."
+    }
+  },
+  {
+    "id": "auto_10",
+    "question": "Sebuah pohon apel dapat mengisi 20 keranjang. Setiap keranjang dapat diisi dengan 15 apel. Berapa banyak apel yang dapat Anda dapatkan dari 10 pohon?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Anda dapat mendapatkan 20 * 15 = 300 apel per pohon."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi total 300 * 10 = 3000 apel dapat diperoleh dari 10 pohon."
+      }
+    ],
+    "final_answer": {
+      "text": "3000 apel dapat diperoleh dari 10 pohon."
+    }
+  },
+  {
+    "id": "auto_11",
+    "question": "Travis dan saudaranya mengikuti acara trick-or-treat. Mereka mengumpulkan 68 buah permen secara keseluruhan. Masing-masing dari mereka memakan 4 buah permen setelah acara. Berapa banyak permen yang tersisa?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Mereka memakan total 4 * 2 = 8 buah permen setelah acara."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, Travis dan saudaranya memiliki 68 - 8 = 60 buah permen yang tersisa."
+      }
+    ],
+    "final_answer": {
+      "text": "60 buah permen yang tersisa."
+    }
+  },
+  {
+    "id": "auto_12",
+    "question": "Elise membeli lebih banyak makanan anjing. Dia membeli kantong 15kg dan kemudian kantong 10kg, dan sekarang dia memiliki 40kg makanan anjing. Berapa kilogram makanan anjing yang sudah dimiliki Elise?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Elise telah membeli total 15 kg + 10 kg = 25kg makanan anjing."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Maka, ini berarti dia sudah memiliki 40 kg - 25 kg = 15kg makanan anjing."
+      }
+    ],
+    "final_answer": {
+      "text": "15kg makanan anjing."
+    }
+  },
+  {
+    "id": "auto_13",
+    "question": "Jika ada empat kali lebih banyak apel daripada jeruk di sebuah keranjang buah tertentu dan keranjang tersebut memiliki 15 apel, berapa banyak buah yang akan dikonsumsi Emiliano jika ia memakan 2/3 dari setiap jumlah buah di keranjang?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Jika ada empat kali lebih banyak apel daripada jeruk di sebuah keranjang buah tertentu, dengan jumlah apel sebanyak 15, maka ada 15 * 4=60 jeruk di dalam keranjang."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Jika Emiliano memakan 2 / 3 dari jeruk di dalam keranjang, ia akan mengambil 2 / 3 * 60=40 jeruk dari keranjang."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Dengan jumlah apel di dalam keranjang sebanyak 15, jika Emiliano memakan 2 / 3 dari apel tersebut, 2 / 3 * 15=10 apel akan dimakan oleh Emiliano."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Dengan demikian, total jumlah buah yang dimakan oleh Emiliano adalah 10 + 40=50."
+      }
+    ],
+    "final_answer": {
+      "text": "50."
+    }
+  },
+  {
+    "id": "auto_14",
+    "question": "Jim memiliki ember yang berisi batu. Berat rata-rata sebuah batu adalah 1,5 pon. Seorang kolektor batu lokal setuju untuk membayarnya $4 untuk setiap pon batu. Jika dia mendapatkan $60 dari penjualan, berapa banyak batu yang ada di ember?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Ada 15 pon batu di ember karena 60 / 4 = 15"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, ada 10 batu di ember karena 15 / 1.5 = 10"
+      }
+    ],
+    "final_answer": {
+      "text": "10"
+    }
+  },
+  {
+    "id": "auto_15",
+    "question": "Dalam tiga pertandingan bisbol minggu ini, delapan puluh orang menonton pertandingan kedua sementara 20 orang lebih sedikit menonton pertandingan pertama dibandingkan pertandingan kedua. Kemudian 15 orang lebih banyak menonton pertandingan ketiga dibandingkan pertandingan kedua. Jika ada total 200 orang yang menonton pertandingan minggu lalu, berapa banyak orang yang menonton pertandingan minggu ini dibandingkan minggu lalu?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "inference",
+        "statement": "Minggu ini, 80 - 20 = 60 orang menonton pertandingan pertama."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Sementara 80 + 15 = 95 orang menonton pertandingan ketiga."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Total 80 + 60 + 95 = 235 orang menonton pertandingan minggu ini."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Jadi, 235 - 200 = 35 orang lebih banyak menonton pertandingan minggu ini dibandingkan minggu lalu."
+      }
+    ],
+    "final_answer": {
+      "text": "35 orang lebih banyak menonton pertandingan minggu ini dibandingkan minggu lalu."
+    }
+  },
+  {
+    "id": "auto_16",
+    "question": "Sebuah peternakan lokal terkenal karena memiliki banyak kuning telur ganda dalam telurnya. Satu karton berisi 12 telur memiliki lima telur dengan kuning telur ganda. Berapa banyak kuning telur yang ada di seluruh karton?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "information",
+        "statement": "Karton tersebut memiliki 12 - 5 = 7 telur dengan satu kuning telur."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Terdapat 5 telur dengan kuning telur ganda, yang menambah * 2 = 10 kuning telur."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi, ada 7 + 10 = 17 kuning telur di seluruh karton."
+      }
+    ],
+    "final_answer": {
+      "text": "17 kuning telur di seluruh karton."
+    }
+  },
+  {
+    "id": "auto_17",
+    "question": "Ada 285 permen di dalam mangkuk. Jika 49 dari permen tersebut berwarna merah dan 59 dari permen tersebut berwarna hijau, berapa banyak permen yang tidak berwarna merah maupun hijau?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Ada 49 + 59 = 108 permen berwarna merah atau hijau di dalam mangkuk"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, ada 285 - 108 = 177 permen yang tidak berwarna merah maupun hijau"
+      }
+    ],
+    "final_answer": {
+      "text": "177 permen yang tidak berwarna merah maupun hijau"
+    }
+  },
+  {
+    "id": "auto_18",
+    "question": "Carl sedang mengadakan open house untuk bisnis barunya. Dia tahu 50 orang akan datang dan berharap 40 orang lagi akan datang secara acak. Dia telah membuat 10 tas hadiah mewah untuk 10 orang pertama yang mengunjungi tokonya. Dia telah membuat tas hadiah biasa untuk 20 orang tetapi perlu membuat cukup untuk semua orang yang berkunjung agar mendapatkan satu. Berapa banyak tas lagi yang perlu dia buat?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia tahu 50 orang akan datang dan dia berharap 40 orang lagi akan datang sehingga totalnya adalah 50 + 40 = 90 orang."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Dia telah membuat 10 tas hadiah mewah dan 20 tas biasa sehingga totalnya adalah 10 + 20 = 30 tas."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Dengan demikian, dia berharap 90 orang akan datang dan sudah membuat 30 tas, jadi dia perlu membuat 90 - 30 = 60 tas hadiah lagi."
+      }
+    ],
+    "final_answer": {
+      "text": "60 tas hadiah lagi."
+    }
+  },
+  {
+    "id": "auto_19",
+    "question": "Michael suka melukis dan menjual karyanya. Dia mematok harga $100 untuk lukisan besar dan $80 untuk lukisan kecil. Di pameran seni terakhirnya, dia menjual 5 lukisan besar dan 8 lukisan kecil. Berapa banyak yang dia peroleh secara keseluruhan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia memperoleh 5 * 100 = 500 untuk lukisan besar."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Dan dia memperoleh 8 * 80 = 640 untuk lukisan kecil."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, dia memperoleh total 500 + 640 = 1140 secara keseluruhan."
+      }
+    ],
+    "final_answer": {
+      "text": "1140 secara keseluruhan."
+    }
+  },
+  {
+    "id": "auto_20",
+    "question": "Jika jumlah dari dua angka adalah 33, dan jika angka kedua adalah dua kali angka pertama, berapa angka kedua?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Angka pertama adalah 33 / 3=11."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, angka kedua adalah 11 * 2=22."
+      }
+    ],
+    "final_answer": {
+      "text": "22."
+    }
+  },
+  {
+    "id": "auto_21",
+    "question": "John membeli 5 mainan yang masing-masing harganya $3. Dia mendapatkan diskon 20%. Berapa banyak yang dia bayar untuk semuanya?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Mainan tersebut berharga 5 * 3=15"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Diskonnya bernilai 15 * 0.2=3"
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi dia membayar 15 - 3=12"
+      }
+    ],
+    "final_answer": {
+      "text": "12"
+    }
+  },
+  {
+    "id": "auto_22",
+    "question": "Sonja membuat selai kacang sendiri dengan kacang dan minyak di dalam blender. Dia menggunakan rasio dua ons minyak untuk menghaluskan setiap delapan ons kacang. Batch terakhir selai kacangnya memiliki berat 20 ons. Berapa ons minyak yang dia gunakan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Sonja menggunakan 2 ons minyak untuk 8 ons kacang untuk membuat 2 + 8 = 10 ons selai kacang."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Batch terakhirnya memiliki berat 20 ons, jadi dia membuat 20 / 10 = 2 kali rasionya."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi, dia menggunakan 2 * 2 = 4 ons minyak."
+      }
+    ],
+    "final_answer": {
+      "text": "4 ons minyak."
+    }
+  },
+  {
+    "id": "auto_23",
+    "question": "James memiliki 20 pasang kaus kaki merah dan setengah dari jumlah kaus kaki hitam. Dia memiliki dua kali lipat jumlah kaus kaki putih dibandingkan dengan jumlah kaus kaki merah dan hitam digabungkan. Berapa total kaus kaki yang dia miliki secara keseluruhan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia memiliki 20 / 2 = 10 kaus kaki hitam"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Jadi dia memiliki 20 + 10 = 30 kaus kaki merah dan hitam"
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Jadi dia memiliki 30 * 2 = 60 kaus kaki putih"
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Jadi dia memiliki 60 + 30 = 90 total kaus kaki"
+      }
+    ],
+    "final_answer": {
+      "text": "90 total kaus kaki"
+    }
+  },
+  {
+    "id": "auto_24",
+    "question": "Jika sebuah keranjang mampu menampung 40 buah secara keseluruhan, dan ada 3 kali lebih banyak apel daripada jeruk, berapa banyak jeruk yang ada?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Karena rasio apel terhadap jeruk adalah 3:1, itu berarti untuk setiap 3 apel ada 1 jeruk. Ukuran kelompok ini adalah 3 + 1=4."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Kita kemudian membagi ukuran kelompok ini ke dalam jumlah total buah yang ditampung keranjang saat ini, yaitu 40. Ini berarti ada 40 / 4=10 kelompok ini secara total."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Dengan demikian, karena ada 10 kelompok ini secara total, itu berarti ada 10 * 1=10 jeruk di dalam keranjang."
+      }
+    ],
+    "final_answer": {
+      "text": "10 jeruk di dalam keranjang."
+    }
+  },
+  {
+    "id": "auto_25",
+    "question": "Djibo berusia 17 tahun. Lima tahun yang lalu, Djibo menjumlahkan usianya dengan usia saudarinya dan jumlahnya adalah 35. Berapa usia saudara perempuan Djibo hari ini?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "inference",
+        "statement": "Usia 5 tahun yang lalu: 17 - 5 = 12"
+      },
+      {
+        "id": "2",
+        "role": "inference",
+        "statement": "Usia saudari 5 tahun yang lalu: 35 - 12 = 23"
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Usia saudari hari ini: 23 + 5 = 28 tahun"
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Dengan demikian, saudari Djibo berusia 28 tahun hari ini."
+      }
+    ],
+    "final_answer": {
+      "text": ""
+    }
+  },
+  {
+    "id": "auto_26",
+    "question": "Sebuah toko kelontong memiliki 4 jenis selai. Mereka menjual selai anggur dua kali lebih banyak daripada selai stroberi, dan selai raspberry dua kali lebih banyak daripada selai plum. Selai raspberry terjual sepertiga dari selai anggur. Jika mereka menjual 6 jar selai plum hari ini, berapa banyak jar selai stroberi yang mereka jual?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Mereka menjual selai raspberry dua kali lebih banyak daripada selai plum, jadi mereka menjual 2 * 6 = 12 jar selai raspberry hari ini."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Selai raspberry terjual sepertiga dari selai anggur, jadi mereka menjual 12 * 3 = 36 jar selai anggur hari ini."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi, selai anggur terjual dua kali lebih banyak daripada selai stroberi, jadi mereka menjual 36 / 2 = 18 jar selai stroberi hari ini."
+      }
+    ],
+    "final_answer": {
+      "text": "18 jar selai stroberi hari ini."
+    }
+  },
+  {
+    "id": "auto_27",
+    "question": "Sebuah toko kecil membuat 50 poster untuk mengiklankan produk mereka. Dua per lima dari mereka adalah poster kecil sementara setengah dari mereka adalah poster sedang. Sisanya adalah poster besar. Berapa banyak poster besar yang ada?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "50 * 2 / 5 = 20 poster adalah kecil."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Dan 50 / 2 = 25 poster adalah sedang."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Jadi 20 + 25 = 45 poster bukan besar."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, 50 - 45 = 5 poster adalah besar."
+      }
+    ],
+    "final_answer": {
+      "text": "5 poster adalah besar."
+    }
+  },
+  {
+    "id": "auto_28",
+    "question": "Annabelle menerima uang saku mingguan sebesar $30. Dia menghabiskan sepertiga dari uang tersebut untuk membeli makanan ringan, kemudian menghabiskan lagi $8 untuk permen. Karena merasa bersalah, dia memutuskan untuk menabung sisa uangnya. Berapa banyak yang dia tabung?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Sepertiga dari 30 adalah 30 * (1 / 3) = 10"
+      },
+      {
+        "id": "2",
+        "role": "inference",
+        "statement": "Dia menghabiskan 10 dari 30 sehingga tersisa 30 - 10 = 20"
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi, dia menghabiskan lagi 8 sehingga tersisa 20 - 8 = 12 yang dia tabung"
+      }
+    ],
+    "final_answer": {
+      "text": "12 yang dia tabung"
+    }
+  },
+  {
+    "id": "auto_29",
+    "question": "Seorang ibu memesan 80 cupcake untuk ulang tahun putrinya. Setengah dari mereka bebas gluten. Ada 24 cupcake vegan dan setengah dari mereka juga bebas gluten. Berapa banyak cupcake non-vegan yang juga mengandung gluten?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Cupcake bebas gluten adalah 80 / 2 = 40."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Cupcake vegan yang mengandung gluten adalah 24 / 2 = 12."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Dengan demikian, cupcake non-vegan yang mengandung gluten adalah 40 - 12 = 28."
+      }
+    ],
+    "final_answer": {
+      "text": "28."
+    }
+  },
+  {
+    "id": "auto_30",
+    "question": "Usia minimum yang diperlukan untuk dipekerjakan di sebuah perusahaan adalah 25 tahun. Dara bercita-cita untuk bekerja di perusahaan tersebut dan akan berusia setengah dari usia Jane dalam enam tahun. Jika Jane saat ini bekerja di perusahaan dan berusia 28 tahun, berapa lama lagi Dara mencapai usia minimum yang diperlukan oleh perusahaan untuk dipekerjakan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dalam si * tahun, Jane akan berusia 28 + 6 = 34 tahun."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Dara akan berusia setengah dari usia Jane dalam si * tahun, yang berarti dia akan berusia 34 / 2 = 17 tahun dalam si * tahun."
+      },
+      {
+        "id": "3",
+        "role": "inference",
+        "statement": "Saat ini, Dara berusia 17 - 6 = 11 tahun."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Jadi, dara harus menunggu selama 25 - 11 = 14 tahun lagi untuk mencapai usia minimum perusahaan untuk dipekerjakan."
+      }
+    ],
+    "final_answer": {
+      "text": "14 tahun lagi untuk mencapai usia minimum perusahaan untuk dipekerjakan."
+    }
+  },
+  {
+    "id": "auto_31",
+    "question": "Trey sedang mengumpulkan uang untuk sepeda baru yang harganya $112. Dia berencana menghabiskan dua minggu ke depan menjual gelang seharga $1 masing-masing. Rata-rata, berapa banyak gelang yang perlu dia jual setiap hari?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "inference",
+        "statement": "Dia perlu menjual 112 gelang karena 112 dibagi 1 sama dengan 112."
+      },
+      {
+        "id": "2",
+        "role": "information",
+        "statement": "Dia memiliki 14 hari untuk menjual gelang karena ada tujuh hari dalam seminggu dan dia memiliki dua minggu, tujuh kali 2 sama dengan 14."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Dengan demikian, dia harus menjual 8 gelang setiap hari karena 112 dibagi 14 sama dengan 8."
+      }
+    ],
+    "final_answer": {
+      "text": ""
+    }
+  },
+  {
+    "id": "auto_32",
+    "question": "Di Alaska, musim penangkapan ikan Cod komersial berlangsung dari 1 Januari hingga 1 Agustus, berlangsung tepat selama 7 bulan, atau 213 hari pada tahun non-kabisat. Dua nelayan bersaing satu sama lain untuk melihat siapa yang bisa mendapatkan lebih banyak keuntungan. Nelayan pertama berencana untuk menangkap ikan dengan laju tetap 3 per hari selama seluruh musim. Nelayan kedua adalah pemula yang perlu memulai dengan lebih lambat. Dia berencana untuk menangkap hanya 1 ikan per hari selama 30 hari pertama, 2 ikan per hari selama 60 hari berikutnya, dan kemudian 4 ikan per hari selama sisa musim. Di akhir musim, berapa banyak ikan lebih banyak yang akan ditangkap oleh nelayan yang menangkap jumlah ikan lebih tinggi?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Nelayan pertama akan menangkap 3 * 213 = 639 ikan selama musim."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Nelayan kedua menangkap 1 * 30 + 2 * 60 = 150 ikan selama 90 hari pertama musim."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Kemudian, selama sisa 213 - 90 = 123 hari musim, nelayan kedua akan menangkap tambahan 4 * 123 = 492 ikan."
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Dengan demikian, nelayan kedua akan menangkap total 150 + 492 = 642 ikan."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, nelayan kedua akan menangkap 642 - 639 = 3 ikan lebih banyak daripada nelayan pertama di akhir musim."
+      }
+    ],
+    "final_answer": {
+      "text": "3 ikan lebih banyak daripada nelayan pertama di akhir musim."
+    }
+  },
+  {
+    "id": "auto_33",
+    "question": "Bioskop menjual tiket matinee seharga $5, tiket malam seharga $12, dan tiket 3D seharga $20. Jika mereka menjual 200 tiket matinee, 300 tiket malam, dan 100 tiket 3D, berapa banyak uang yang mereka hasilkan secara total?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Pertama, temukan total pendapatan dari tiket matinee: 5 / tiket * 200 tiket = 1000"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Kemudian, temukan total pendapatan dari tiket malam: 12 / tiket * 300 tiket = 3600"
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Kemudian, temukan total pendapatan dari tiket 3D: 20 / tiket * 100 tiket = 2000"
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, kemudian, tambahkan biaya dari setiap kelompok tiket untuk menemukan total biaya: 1000 + 3600 + 2000 = 6600"
+      }
+    ],
+    "final_answer": {
+      "text": "6600"
+    }
+  },
+  {
+    "id": "auto_34",
+    "question": "Jika Jenna memiliki dua kali lipat uang di rekening banknya dibandingkan Phil, dan Phil memiliki sepertiga jumlah uang yang dimiliki Bob di rekeningnya, dan Bob memiliki $60 di rekeningnya, berapa banyak uang yang kurang dimiliki Jenna di rekeningnya dibandingkan Bob?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Jika Phil memiliki sepertiga dari jumlah yang dimiliki Bob, itu berarti dia memiliki 60 / 3 = 20 di rekeningnya."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Karena Jenna memiliki dua kali lipat uang dibandingkan Phil, itu berarti dia memiliki 20 * 2 = 40 di rekeningnya."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Maka, karena Bob memiliki 60 di rekeningnya, itu berarti dia memiliki 60 - 40 = 20 lebih banyak daripada Jenna."
+      }
+    ],
+    "final_answer": {
+      "text": "20 lebih banyak daripada Jenna."
+    }
+  },
+  {
+    "id": "auto_35",
+    "question": "Diperlukan 5 orang untuk mengangkat sebuah mobil dan dua kali lipat jumlah orang untuk mengangkat sebuah truk. Berapa banyak orang yang dibutuhkan untuk mengangkat 6 mobil dan 3 truk?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Diperlukan 5 * 2 = 10 orang untuk mengangkat sebuah truk."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "5 * 6 = 30 orang dibutuhkan untuk mengangkat mobil-mobil."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "10 * 3 = 30 orang dibutuhkan untuk mengangkat truk-truk."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Maka, secara keseluruhan, 30 + 30 = 60 orang dibutuhkan."
+      }
+    ],
+    "final_answer": {
+      "text": "60 orang dibutuhkan."
+    }
+  },
+  {
+    "id": "auto_36",
+    "question": "Lucas pergi ke toko dengan $20 dan perlu membeli 3 alpukat yang masing-masing harganya $2. Berapa banyak kembalian yang dia bawa pulang?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Alpukat tersebut berharga 6 karena 3 * 2 = 6"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Maka, dia membawa pulang 14 sebagai kembalian karena 20 - 6 = 14"
+      }
+    ],
+    "final_answer": {
+      "text": "14"
+    }
+  },
+  {
+    "id": "auto_37",
+    "question": "Melissa bekerja di sebuah peternakan unggas. Dia pergi ke kota dua kali setiap bulan untuk membeli perlengkapan. Jika dia membutuhkan waktu 3 jam untuk pergi ke kota dan kembali, berapa jam Melissa menghabiskan waktu untuk berkendara dalam setahun?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Melissa menghabiskan 2 * 3=6 jam berkendara setiap bulan."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Dengan demikian, karena ada 12 bulan dalam setahun, dia menghabiskan 6 * 12=72 jam berkendara setiap tahun."
+      }
+    ],
+    "final_answer": {
+      "text": "72 jam berkendara setiap tahun."
+    }
+  },
+  {
+    "id": "auto_38",
+    "question": "Jennifer memutuskan untuk membagikan permen miliknya antara dirinya dan 3 temannya. Dia memiliki 212 permen hijau, 310 permen biru, dan 502 permen kuning. Berapa banyak permen yang akan didapatkan Jennifer dan teman-temannya masing-masing?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Jennifer memiliki total 212 + 310 + 502 = 1024 permen."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, jennifer dan teman-temannya akan mendapatkan 1024 / 4 = 256 permen masing-masing."
+      }
+    ],
+    "final_answer": {
+      "text": "256 permen masing-masing."
+    }
+  },
+  {
+    "id": "auto_39",
+    "question": "Jasmine selesai bekerja pada pukul 4:00 sore. Setelah itu, dia akan membutuhkan 30 menit untuk pulang, 30 menit untuk berbelanja kebutuhan, 10 menit untuk mengambil pakaian kering, 20 menit untuk menjemput anjing dari salon, dan 90 menit untuk memasak makan malam ketika dia kembali ke rumah. Jam berapa dia akan makan malam?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Urusan dia mencakup perjalanan 30 menit dan belanja 30 menit, 10 menit untuk pakaian kering dan 20 menit untuk menjemput anjing, dengan total 30 + 30 + 10 + 20 = 90 menit."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Urusan dia memakan waktu 90 menit dan dia memiliki 90 menit lagi untuk memasak, sehingga totalnya adalah 90 + 90 = 180 menit urusan."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "60 menit ada dalam 1 jam dan dia memiliki 180 menit pekerjaan, jadi itu adalah 180 / 60 = 3 jam."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, dia selesai bekerja pada pukul 4:00 sore dan memiliki 3 jam urusan, jadi dia tidak akan bisa makan sampai 4 + 3 = 7:00 sore."
+      }
+    ],
+    "final_answer": {
+      "text": "7:00 sore."
+    }
+  },
+  {
+    "id": "auto_40",
+    "question": "Hannah membeli beberapa apel seharga $5 per kilogram. Jika dia mendapatkan diskon 40% untuk setiap kilogram apel, berapa banyak yang harus dia bayar untuk 10 kilogram apel tersebut?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Diskon 40% untuk setiap kilogram apel berarti harga berkurang 40 / 100 * 5 = 2."
+      },
+      {
+        "id": "2",
+        "role": "inference",
+        "statement": "Jadi satu kilogram apel tidak akan seharga 5, tetapi 5 - 2 = 3."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi untuk 10 kilogram apel, Hannah akan membayar 3 * 10 = 30."
+      }
+    ],
+    "final_answer": {
+      "text": "30."
+    }
+  },
+  {
+    "id": "auto_41",
+    "question": "Robi dan Rudy menyumbangkan uang untuk memulai bisnis yang dapat menghasilkan keuntungan bagi mereka. Robi menyumbangkan $4000, dan Rudy menyumbangkan 1/4 lebih banyak uang daripada Robi. Jika mereka mendapatkan keuntungan sebesar 20 persen dari total jumlah dan memutuskan untuk membagi keuntungan secara merata, hitunglah jumlah uang yang diterima masing-masing.",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Jika Robi menyumbangkan 4000, maka Rudy menyumbangkan 1 / 4 * 4000 = 1000 lebih."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Jumlah total uang yang disumbangkan Rudy adalah 4000 + 1000 = 5000."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Bersama-sama, mereka menyumbangkan total 5000 + 4000 = 9000."
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Mereka mendapatkan keuntungan 20%, totalnya adalah 20 / 100 * 9000 = 1800."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, ketika mereka memutuskan untuk membagi keuntungan secara merata, masing-masing menerima 1800 / 2 = 900."
+      }
+    ],
+    "final_answer": {
+      "text": "900."
+    }
+  },
+  {
+    "id": "auto_42",
+    "question": "John membeli bantalan pemanas seharga $30. Dia menggunakannya 3 kali seminggu selama 2 minggu. Berapa banyak yang dia habiskan untuk setiap penggunaan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia menggunakannya 3 * 2=6 kali"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi dia membayar 30 / 6=5"
+      }
+    ],
+    "final_answer": {
+      "text": "5"
+    }
+  },
+  {
+    "id": "auto_43",
+    "question": "Jarak antara rumah Robin dan pusat kota adalah 500 meter. Dia meninggalkan rumah untuk pergi ke pusat kota. Setelah dia berjalan 200 meter, dia menyadari bahwa dia lupa membawa tasnya. Jadi, dia kembali ke rumahnya, kemudian pergi kembali ke pusat kota. Berapa meter dia berjalan secara total?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia berjalan 200 meter terlebih dahulu kemudian dia kembali ke rumah. Jadi totalnya adalah 200 m + 200 m = 400 m"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, pusat kota berjarak 500 meter dari rumahnya jadi total jaraknya adalah 400 m + 500 m = 900 m"
+      }
+    ],
+    "final_answer": {
+      "text": "900 m"
+    }
+  },
+  {
+    "id": "auto_44",
+    "question": "Empat puluh persen siswa telah memilih untuk belajar dari rumah selama pandemi. Siswa yang tersisa dibagi menjadi dua kelompok yang sama, hanya satu dari kelompok tersebut yang secara fisik berada di sekolah pada hari tertentu. Berapa persen siswa yang hadir di sekolah?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "inference",
+        "statement": "100 - 40=60 persen siswa yang tersisa."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Dengan demikian, 60 / 2=30 persen yang hadir di sekolah."
+      }
+    ],
+    "final_answer": {
+      "text": "30 persen yang hadir di sekolah."
+    }
+  },
+  {
+    "id": "auto_45",
+    "question": "Ariel sedang mengumpulkan ikan. Dia memiliki 45 ikan. 2/3 adalah jantan. Berapa banyak ikan betina yang dia miliki?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "1 / 3 dari ikannya adalah betina karena 1 - (2 / 3) = 1 / 3"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Maka, dia memiliki 15 ikan betina karena 45 * (1 / 3) = 15"
+      }
+    ],
+    "final_answer": {
+      "text": "15"
+    }
+  },
+  {
+    "id": "auto_47",
+    "question": "Matt memiliki perkebunan kacang tanah yang berukuran 500 kaki kali 500 kaki.  1 kaki persegi kacang tanah dapat menghasilkan 50 gram kacang tanah.  Jika dibutuhkan 20 gram kacang tanah untuk membuat 5 gram selai kacang dan 1 kg selai kacang dijual seharga $10, berapa banyak yang dia hasilkan dari perkebunannya?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Perkebunannya adalah 500 * 500=250000 kaki persegi"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Itu berarti dia mendapatkan 250000 * 50=12500000 gram kacang tanah"
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Jadi dia membuat 12500000 * 5 / 20=3125000 gram selai kacang"
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Jadi dia memiliki 3125000 / 1000=3125 kg selai kacang"
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Maka, itu berarti dijual seharga 3125 * 10=31250"
+      }
+    ],
+    "final_answer": {
+      "text": "31250"
+    }
+  },
+  {
+    "id": "auto_48",
+    "question": "Keluarga Francis memiliki 2 ukulele, 4 gitar, dan sejumlah biola. Setiap ukulele memiliki 4 senar. Setiap gitar memiliki 6 senar. Setiap biola memiliki 4 senar. Jika total jumlah senar di antara ukulele, gitar, dan biola adalah 40 senar, berapa banyak biola yang dimiliki keluarga Francis?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dari ukulele, terdapat 2 * 4 = 8 senar"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Dari gitar, terdapat 4 * 6 = 24 senar"
+      },
+      {
+        "id": "3",
+        "role": "inference",
+        "statement": "Dari biola, terdapat 40 - 8 - 24 = 8 senar"
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Maka, total jumlah biola yang dimiliki keluarga Francis adalah 8 / 4 = 2 biola"
+      }
+    ],
+    "final_answer": {
+      "text": "2 biola"
+    }
+  },
+  {
+    "id": "auto_49",
+    "question": "Sally mengajar di sekolah dasar dan diberikan $320 untuk dibelanjakan pada buku untuk murid-muridnya. Sebuah buku bacaan berharga $12 dan ada 30 murid di kelasnya. Sayangnya, jika uang yang diberikan oleh sekolah untuk membayar buku tidak cukup, dia harus membayar sisa dari kantongnya. Berapa banyak uang yang perlu dibayar Sally dari kantongnya, untuk membeli setiap murid sebuah buku bacaan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Untuk membeli sebuah buku untuk setiap murid, Sally membutuhkan: 30 * 12 = 360."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Maka, dia dengan demikian perlu membayar 360 - 320 = 40 dari kantongnya."
+      }
+    ],
+    "final_answer": {
+      "text": "40 dari kantongnya."
+    }
+  },
+  {
+    "id": "auto_50",
+    "question": "Kertas pembungkus mewah Harold dapat membungkus 5 kotak baju atau 3 kotak XL. Untuk liburan yang akan datang, dia memiliki 20 kotak baju untuk dibungkus dan 12 kotak XL untuk dibungkus. Jika setiap gulung kertas pembungkus berharga $4,00 per gulung, berapa banyak yang akan dia habiskan untuk membungkus semua kotak?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "1 gulung dapat membungkus 5 kotak baju dan dia memiliki 20 kotak baju untuk dibungkus, jadi dia membutuhkan 20 / 5 = 4 gulung kertas."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "1 gulung dapat membungkus 3 kotak XL dan dia memiliki 12 kotak XL untuk dibungkus, jadi dia membutuhkan 12 / 3 = 4 gulung kertas."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Total dia membutuhkan 4 + 4 = 8 gulung kertas."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, setiap gulung berharga 4.00 dan dia membutuhkan 8 gulung, jadi total biayanya adalah 4 * 8 = 32.00 untuk kertas pembungkus."
+      }
+    ],
+    "final_answer": {
+      "text": "32.00 untuk kertas pembungkus."
+    }
+  },
+  {
+    "id": "auto_51",
+    "question": "Sebuah balon khusus meningkat sebesar dua per lima dari volume sebelumnya setiap jam ketika ditempatkan di bawah air. Jika volume aslinya adalah 500cm³, berapa volume balon tersebut setelah 2 jam di bawah air?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Pada jam pertama, balon akan meningkat dalam volume sebesar dua per lima dari 500cm³ yaitu (2 / 5) * 500cm³ = 200cm³."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Setelah jam pertama, volume balon akan menjadi (500 + 200)cm³ = 700cm³."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Pada jam kedua, balon akan meningkat dalam volume sebesar dua per lima dari 700cm³ yaitu (2 / 5) * 700cm³ = 280cm³."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Jadi, setelah jam kedua, volume balon akan menjadi (700 + 280)cm³ = 980cm³."
+      }
+    ],
+    "final_answer": {
+      "text": "980cm³."
+    }
+  },
+  {
+    "id": "auto_52",
+    "question": "Merry memiliki 50 kotak apel pada hari Sabtu dan 25 kotak pada hari Minggu. Terdapat 10 apel di setiap kotak. Jika dia menjual total 720 apel pada hari Sabtu dan Minggu, berapa banyak kotak apel yang tersisa?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Merry memiliki total 50 + 25 = 75 kotak apel."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "75 kotak ini sama dengan 75 * 10 = 750 apel."
+      },
+      {
+        "id": "3",
+        "role": "inference",
+        "statement": "Terdapat 750 - 720 = 30 apel yang tersisa."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Jadi, 30 / 10 = 3 kotak apel yang tersisa."
+      }
+    ],
+    "final_answer": {
+      "text": "3 kotak apel yang tersisa."
+    }
+  },
+  {
+    "id": "auto_53",
+    "question": "Sebuah garasi parkir di sebuah mal memiliki empat lantai. Di lantai pertama, terdapat 90 tempat parkir. Lantai kedua memiliki 8 tempat parkir lebih banyak daripada di lantai pertama, dan terdapat 12 tempat parkir lebih banyak yang tersedia di lantai ketiga dibandingkan dengan lantai kedua. Lantai keempat memiliki 9 tempat parkir lebih sedikit daripada lantai ketiga. Jika 100 mobil sudah diparkir, berapa banyak mobil yang dapat ditampung oleh garasi parkir tersebut?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Lantai kedua memiliki 90 + 8 = 98 tempat parkir."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Lantai ketiga memiliki 98 + 12 = 110 tempat parkir."
+      },
+      {
+        "id": "3",
+        "role": "information",
+        "statement": "Lantai keempat memiliki 110 - 9 = 101 tempat parkir."
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Jadi, garasi parkir dapat menampung 90 + 98 + 110 + 101 = 399 mobil."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Dengan demikian, garasi parkir masih dapat menampung 399 - 100 = 299 mobil."
+      }
+    ],
+    "final_answer": {
+      "text": "299 mobil."
+    }
+  },
+  {
+    "id": "auto_54",
+    "question": "Kelly memasukkan keju string ke dalam bekal anak-anaknya 5 hari dalam seminggu. Anak tertuanya ingin 2 setiap hari dan anak bungsunya hanya mau makan 1. Paketnya berisi 30 keju string per paket. Berapa banyak paket keju string yang dibutuhkan Kelly untuk mengisi bekal anak-anaknya selama 4 minggu?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Anak tertuanya ingin 2 keju string per hari selama 5 hari jadi 2 * 5 = 10 keju string."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Anak bungsunya ingin 1 keju string per hari selama 5 hari jadi 1 * 5 = 5 keju string."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Bersama-sama mereka ingin 10 + 5 = 15 keju string per minggu."
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Selama 4 minggu, anak-anaknya akan makan 15 keju string jadi 4 * 15 = 60 keju string."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Dengan demikian, paketnya berisi 30 per paket dan dia membutuhkan 60 jadi 60 / 30 = 2 paket keju string."
+      }
+    ],
+    "final_answer": {
+      "text": "2 paket keju string."
+    }
+  },
+  {
+    "id": "auto_55",
+    "question": "Untuk membeli sebuah buku, Anda membayar $20 untuk masing-masing dari 5 buku pertama di supermarket, dan untuk setiap buku tambahan yang Anda beli di atas $20, Anda menerima diskon sebesar $2. Jika Beatrice membeli 20 buku, berapa banyak yang dia bayar di supermarket?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Untuk lima buku pertama, total biayanya adalah 20 * 5 = 100"
+      },
+      {
+        "id": "2",
+        "role": "inference",
+        "statement": "Untuk setiap buku tambahan di atas 5, Anda membayar 2 lebih sedikit, totalnya menjadi 20 - 2 = 18"
+      },
+      {
+        "id": "3",
+        "role": "information",
+        "statement": "Beatrice membeli 20 buku, jadi jumlah buku di mana dia menerima diskon 2 adalah 20 - 5 = 15 buku."
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Untuk 15 buku tersebut, Beatrice membayar 15 * 18 = 270"
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Jadi, secara total, Beatrice membayar 100 + 270 = 370 untuk 20 buku."
+      }
+    ],
+    "final_answer": {
+      "text": "370 untuk 20 buku."
+    }
+  },
+  {
+    "id": "auto_56",
+    "question": "Bingley memiliki 5 gelang. Kelly memberikan Bingley seperempat dari 16 gelangnya. Kemudian Bingley memberikan sepertiga dari gelangnya kepada adik perempuannya. Berapa banyak gelang yang tersisa pada Bingley?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Kelly memberikan Bingley 16 / 4 = 4 gelang"
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Bingley memiliki 5 + 4 = 9 gelang"
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Bingley memberikan adik perempuannya 9 / 3 = 3 gelang"
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Dengan demikian, pada akhirnya, Bingley memiliki 9 - 3 = 6 gelang yang tersisa"
+      }
+    ],
+    "final_answer": {
+      "text": "6 gelang yang tersisa"
+    }
+  },
+  {
+    "id": "auto_57",
+    "question": "Ron makan pizza dengan teman-temannya beberapa hari yang lalu. Jika mereka memesan pizza dengan 12 potong dan masing-masing dari mereka makan 4 potong, berapa banyak teman yang ada bersama Ron?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Biarkan jumlah teman yang makan bersama Ron dilambangkan dengan F. Itu berarti total jumlah orang yang makan hari itu adalah 1 + F."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Jika masing-masing dari mereka makan 4 potong, dan pizza hanya memiliki 12 potong, itu berarti hanya ada 12 / 4 = 3 orang yang makan."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Jika total jumlah orang yang makan adalah 3, dan jika juga dilambangkan dengan 1 + F, maka kita memiliki 3 = 1 + F."
+      },
+      {
+        "id": "4",
+        "role": "information",
+        "statement": "Menyelesaikan untuk F kita memiliki 3 - 1 = F."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Maka, f = 2 teman makan bersama Ron."
+      }
+    ],
+    "final_answer": {
+      "text": "2 teman makan bersama Ron."
+    }
+  },
+  {
+    "id": "auto_58",
+    "question": "Sebuah buku harganya $4 lebih mahal daripada sebuah CD. CD tersebut 30% lebih murah daripada album seharga $20. Berapa harga buku tersebut?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "CD tersebut 30 / 100 * 20 = 6 lebih murah daripada album."
+      },
+      {
+        "id": "2",
+        "role": "information",
+        "statement": "Jadi, harga CD adalah 20 - 6 = 14."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Maka, buku tersebut $4 lebih mahal daripada CD, yang berarti harganya 14 + 4 = 18."
+      }
+    ],
+    "final_answer": {
+      "text": "18."
+    }
+  },
+  {
+    "id": "auto_59",
+    "question": "Louie menjual kendaraan Dodge, Hyundai, dan Kia, dan perusahaannya memiliki 400 kendaraan untuk dijual di tempat parkir toko. Setengah dari kendaraan di tempat parkir adalah Dodge, dan ada setengah dari jumlah kendaraan Hyundai di tempat parkir dibandingkan dengan jumlah kendaraan Dodge. Berapa banyak kendaraan Kia yang ada di tempat parkir?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Setengah dari 400 kendaraan yang dijual di tempat parkir adalah Dodge, atau total 400 / 2=200 kendaraan Dodge."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Karena ada setengah dari jumlah kendaraan Hyundai di tempat parkir dibandingkan dengan jumlah kendaraan Dodge, maka ada 200 / 2=100 kendaraan Hyundai di tempat parkir."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Maka, karena sisa kendaraan adalah Kia, maka ada 400 - 200 - 100=100 kendaraan Kia yang dijual di tempat parkir."
+      }
+    ],
+    "final_answer": {
+      "text": "100 kendaraan Kia yang dijual di tempat parkir."
+    }
+  },
+  {
+    "id": "auto_60",
+    "question": "Johnny membeli papan kayu untuk membangun beberapa meja. Setiap meja membutuhkan satu papan kayu untuk setiap kaki dan 5 papan kayu untuk permukaan. Jika Johnny ingin membangun 5 meja, berapa banyak papan kayu yang dia butuhkan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Setiap meja membutuhkan 1 papan kayu * 4 kaki = 4 papan kayu untuk kaki."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Ini berarti setiap meja membutuhkan 4 papan kayu untuk kaki + 5 papan kayu untuk permukaan = 9 papan kayu."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Dengan demikian, untuk membangun 5 meja, Johnny akan membutuhkan 9 papan kayu * 5 meja = 45 papan kayu."
+      }
+    ],
+    "final_answer": {
+      "text": "45 papan kayu."
+    }
+  },
+  {
+    "id": "auto_61",
+    "question": "Kenia memiliki tiga kali lebih banyak tikus dibandingkan Hunter dan Elodie bersama-sama. Jika Elodie memiliki 30 tikus, 10 tikus lebih banyak daripada Hunter, hitung total jumlah hewan peliharaan yang dimiliki ketiganya bersama-sama?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "information",
+        "statement": "Karena Elodie memiliki 30 tikus, Hunter memiliki 30 tikus - 10 tikus = 20 tikus."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Bersama-sama, Elodie dan Hunter memiliki 20 tikus + 30 tikus = 50 tikus."
+      },
+      {
+        "id": "3",
+        "role": "calculation",
+        "statement": "Kenia memiliki tiga kali lebih banyak tikus dibandingkan yang dimiliki Hunter dan Elodie bersama-sama, yaitu 3 * 50 tikus = 150 tikus."
+      },
+      {
+        "id": "4",
+        "role": "conclusion",
+        "statement": "Dengan demikian, bersama-sama, ketiganya memiliki 150 tikus + 50 tikus = 200 tikus."
+      }
+    ],
+    "final_answer": {
+      "text": "200 tikus."
+    }
+  },
+  {
+    "id": "auto_62",
+    "question": "Adam menghasilkan $40 setiap hari di pekerjaannya. 10% dari uangnya dipotong sebagai pajak. Berapa banyak uang yang akan diperoleh Adam setelah pajak setelah 30 hari bekerja?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Jumlah uang yang dipotong dari gaji harian Adam adalah 40 / 10 = 4."
+      },
+      {
+        "id": "2",
+        "role": "information",
+        "statement": "Jadi setelah memotong 10%, gaji harian Adam adalah 40 - 4 = 36."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Jadi, ini berarti bahwa dalam 30 hari dia menghasilkan 36 * 30 = 1080."
+      }
+    ],
+    "final_answer": {
+      "text": "1080."
+    }
+  },
+  {
+    "id": "auto_63",
+    "question": "Selama kontes makan hot dog, pesaing pertama makan 12 hot dog dalam 3 menit. Pesaing kedua makan dua kali jumlah itu dan pesaing ketiga makan 25% lebih sedikit dari pesaing kedua. Berapa banyak hot dog yang dimakan pesaing ketiga?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Pesaing kedua makan dua kali jumlah hot dog pesaing pertama yang 12 hot dog. Jadi dia makan 2 * 12 = 24 hot dog."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Pesaing ketiga makan 25% lebih sedikit dari 24 hot dog pesaing kedua, yaitu 24 / 4 = 6 hot dog."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, jika pesaing kedua makan 24 hot dog, dan pesaing ketiga makan 25% lebih sedikit dari itu, maka pesaing ketiga makan 24 - 6 = 18 hot dog."
+      }
+    ],
+    "final_answer": {
+      "text": "18 hot dog."
+    }
+  },
+  {
+    "id": "auto_64",
+    "question": "Seekor laba-laba memiliki delapan kaki. Jika sekelompok laba-laba memiliki 10 laba-laba lebih banyak daripada setengah jumlah kaki yang dimiliki oleh satu laba-laba, berapa total jumlah kaki laba-laba dalam kelompok laba-laba ini?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Setengah jumlah kaki yang dimiliki oleh satu laba-laba adalah 8 / 2=4 kaki."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "10 laba-laba lebih banyak daripada setengah jumlah kaki yang dimiliki oleh satu laba-laba adalah 4 + 10=14 laba-laba."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, total jumlah kaki laba-laba dalam kelompok 14 laba-laba adalah 8 * 14=112 kaki laba-laba."
+      }
+    ],
+    "final_answer": {
+      "text": "112 kaki laba-laba."
+    }
+  },
+  {
+    "id": "auto_65",
+    "question": "Pat's Pool Supply memiliki tiga kali lebih banyak kolam renang dibandingkan dengan toko Pat's Ark & Athletic Wear. Jika toko Pat's Ark & Athletic Wear memiliki 200 kolam, berapa banyak kolam yang mereka miliki secara total?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Karena toko Pat's Ark & Athletic Wear memiliki 200 kolam, Pat's Pool Supply memiliki 3 * 200 = 600 kolam renang."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, bersama-sama, mereka memiliki 600 + 200 = 800 kolam renang."
+      }
+    ],
+    "final_answer": {
+      "text": "800 kolam renang."
+    }
+  },
+  {
+    "id": "auto_66",
+    "question": "Colin dapat melompat dengan kecepatan enam kali lipat dari kecepatan yang dapat dicapai Brandon. Brandon dapat melompat dengan sepertiga dari kecepatan yang dapat dicapai Tony. Dan Tony dapat melompat dengan dua kali lipat dari kecepatan yang dapat dicapai Bruce. Dengan kecepatan berapa, dalam mil per jam, Colin dapat melompat jika Bruce melompat dengan kecepatan 1 mil per jam?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Tony dapat melompat dengan dua kali lipat dari kecepatan yang dapat dicapai Bruce, untuk kecepatan 1 * 2=2 mil per jam."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Brandon dapat melompat dengan sepertiga dari kecepatan yang dapat dicapai Tony, untuk kecepatan 2 * (1 / 3) = 2 / 3 mil per jam."
+      },
+      {
+        "id": "3",
+        "role": "conclusion",
+        "statement": "Maka, colin dapat melompat dengan enam kali lipat dari kecepatan yang dapat dicapai Brandon, untuk kecepatan (2 / 3 * 6=4 mil per jam)."
+      }
+    ],
+    "final_answer": {
+      "text": "4 mil per jam)."
+    }
+  },
+  {
+    "id": "auto_67",
+    "question": "Ibu Young membuat topi untuk anak-anak di panti asuhan. Pada hari Senin, dia membuat 10 topi, pada hari Selasa dan Rabu digabungkan dia membuat dua kali lebih banyak daripada pada hari Senin, sementara pada hari Kamis dia membuat 5 lebih banyak daripada pada hari Senin, dan pada hari Jumat dia membuat 5 lebih sedikit daripada pada hari Kamis. Kemudian, dia membagikan topi-topi tersebut secara merata dan mengirimkannya ke 5 panti asuhan. Berapa banyak topi yang Ibu Young kirimkan ke setiap panti asuhan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Dia membuat 10 * 2 = 20 topi pada hari Selasa dan Rabu."
+      },
+      {
+        "id": "2",
+        "role": "calculation",
+        "statement": "Sementara pada hari Kamis dia membuat 10 + 5 = 15 topi."
+      },
+      {
+        "id": "3",
+        "role": "inference",
+        "statement": "Pada hari Jumat dia membuat 15 - 5 = 10 topi."
+      },
+      {
+        "id": "4",
+        "role": "calculation",
+        "statement": "Ibu Young membuat total 10 + 20 + 15 + 10 = 55 topi untuk panti asuhan."
+      },
+      {
+        "id": "5",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, Ibu Young mengirim 55 / 5 = 11 topi ke setiap panti asuhan."
+      }
+    ],
+    "final_answer": {
+      "text": "11 topi ke setiap panti asuhan."
+    }
+  },
+  {
+    "id": "auto_68",
+    "question": "Gunther dapat mengetik 160 kata setiap 3 menit dan dia bekerja 480 menit per hari. Berapa banyak kata yang dapat diketik Gunther dalam satu hari kerja?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Gunther dapat mengetik 480 / 3 = 160 set 160 kata setiap 3 menit."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Oleh karena itu, dia dapat mengetik 160 * 160 = 25600 kata per hari."
+      }
+    ],
+    "final_answer": {
+      "text": "25600 kata per hari."
+    }
+  },
+  {
+    "id": "auto_69",
+    "question": "Ellie telah menemukan sepeda tua di sebuah ladang dan berpikir bahwa sepeda itu hanya perlu sedikit minyak agar dapat berfungsi dengan baik lagi. Dia membutuhkan 10ml minyak untuk memperbaiki setiap roda dan akan membutuhkan 5ml minyak lagi untuk memperbaiki sisa sepeda. Berapa banyak minyak yang dia butuhkan secara total untuk memperbaiki sepeda?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Ellie membutuhkan 2 roda * 10ml minyak per roda = 20ml minyak."
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Jadi, untuk memperbaiki sisa sepeda juga, dia membutuhkan 20 + 5 = 25ml minyak."
+      }
+    ],
+    "final_answer": {
+      "text": "25ml minyak."
+    }
+  },
+  {
+    "id": "auto_70",
+    "question": "Roland membutuhkan seutas benang untuk menyelesaikan sebuah latihan. Dia memiliki benang sepanjang 12cm tetapi gurunya mengatakan dia membutuhkan tambahan tiga perempat dari yang dia miliki. Berapa total panjang yang dibutuhkan?",
+    "steps": [
+      {
+        "id": "1",
+        "role": "calculation",
+        "statement": "Tambahan tiga perempat dari 12cm diperlukan yaitu 12cm * (3 / 4) = 9cm"
+      },
+      {
+        "id": "2",
+        "role": "conclusion",
+        "statement": "Dengan demikian, total panjang yang dibutuhkan adalah 12cm + 9cm = 21cm"
+      }
+    ],
+    "final_answer": {
+      "text": "21cm"
+    }
+  }
+]
